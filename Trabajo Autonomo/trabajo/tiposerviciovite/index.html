@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD de Josselin Rodriguez</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      nav {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      nav ul li {
+        display: inline;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+      }
+
+      nav ul li a:hover {
+        background-color: #555;
+      }
+
+      #app {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#" id="enlace-reservas">Reservas</a></li>
+        <li><a href="#" id="enlace-servicios">Servicios</a></li>
+        <li><a href="#" id="enlace-tipos-servicio">Tipos de Servicio</a></li>
+      </ul>
+    </nav>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>  
+  </body>
+</html>
